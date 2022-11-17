@@ -1,9 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Inter:wght@400;500&family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Inter:wght@700&family=Montserrat:wght@400;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
 
 :root {
   --black-gradient: linear-gradient(
@@ -13,6 +14,8 @@
     #11101d 91.61%
   );
   --card-shadow: 0px 20px 100px -10px rgba(66, 71, 91, 0.1);
+
+  font-family: 'Henny penny';
 }
 
 * {
@@ -47,6 +50,16 @@
   );
 }
 
+.bg-pnkL-gradient {
+  background:
+  linear-gradient(
+    180deg,
+    #FFDDBC 0%,
+    #FFE5CB 100%
+    );
+    box-shadow: 0px 14px 20px rgba(0, 0, 0, 0.3);
+}
+
 .bg-black-gradient {
   background: linear-gradient(
     144.39deg,
@@ -73,6 +86,9 @@
   );
 }
 
+.bg-spez-gradient {
+background: linear-gradient(177.17deg, #6C6868 31.72%, #6A6666 42.48%, #5C5C5C 101.08%);
+}
 .bg-discount-gradient {
   background: linear-gradient(125.17deg, #272727 0%, #11101d 100%);
 }
